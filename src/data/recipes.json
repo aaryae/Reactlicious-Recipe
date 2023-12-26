@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Bolognese",
+    "image":"spaghetti.jpg",
+    "ingredients": [
+      "1 (16 ounce) package spaghetti",
+      "2 tablespoons olive oil",
+      "3 slices bacon, diced",
+      "1 large onion, finely chopped",
+      "1 stalk celery, finely chopped",
+      "1 carrot, finely chopped",
+      "1 teaspoon dried oregano",
+      "3 cloves garlic, minced",
+      "1 pound lean ground beef",
+      "2 tablespoons balsamic vinegar",
+      "2 (28 ounce) cans crushed tomatoes",
+      "2 tablespoons tomato paste",
+      "2 teaspoons white sugar",
+      "salt and ground black pepper to taste",
+      "2 tablespoons chopped fresh basil",
+      "¼ cup freshly grated Parmesan cheese"
+    ],
+    "description": "Classic Italian pasta dish with a rich meat sauce. Bring a large pot of lightly salted water to a rolling boil. Cook the spaghetti in the boiling water until cooked through yet firm to the bite, about 12 minutes; drain. Heat the olive oil in a large pot over medium heat. Cook the bacon in the oil until crisp, 8 to 10 minutes. Stir the onion, celery, carrot, and oregano into the bacon; continue cooking until the vegetables begin to soften, another 8 to 10 minutes. Add the garlic and cook until fragrant, about 2 minutes. Crumble the ground beef into the vegetable mixture; cook and stir until the beef is completely cooked and no longer pink, 8 to 10 minutes. Pour the balsamic vinegar over the ground beef mixture; allow to simmer until the liquid evaporates, about 5 minutes. Stir the crushed tomatoes, tomato paste, and sugar into the ground beef mixture; bring the mixture to a boil, season with salt and black pepper, and remove from heat. Stir the fresh basil into the mixture. Ladle the sauce over the cooked spaghetti. Top with Parmesan cheese to serve."
+  },
+  {
+    "id": 2,
+    "title": "CucumberSalad",
+    "image": "cucumbersalad.jpg",
+    "ingredients": [
+      "5 cucumbers, peeled and thinly sliced",
+      "1 red onion, thinly sliced",
+      "3/4 cup creamy salad dressing",
+      "salt and pepper to taste"
+    ],
+    "description": [
+      "Place cucumbers in a large salad bowl, and set aside.",
+      "In a small bowl, whisk together the sour cream, mint, garlic, lemon juice, olive oil, salt, and pepper until well blended. Pour over the cucumbers, and mix until well coated."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "amish-cake",
+    "image": "cake.jpg",
+    "description": [
+      "Preheat oven to 350 degrees F (175 degrees C).",
+      "In a large bowl, mix flour, sugar and baking powder. Add eggs, vanilla and pineapple with juice. Blend well. Add walnuts and mix in.",
+      "Pour into an ungreased 9x13 inch pan. Bake at 350 degrees F (175 degrees C ) for 40 minutes."
+    ],
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "1 1/2 cups white sugar",
+      "2 teaspoons baking powder",
+      "2 eggs, beaten",
+      "1 teaspoon vanilla extract",
+      "1 (20 ounce) can crushed pineapple with juice",
+      "1 cup chopped walnuts"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "cabbage Roll",
+    "image": "cabbageroll.jpg",
+    "ingredients": [
+      "1 pound lean ground beef",
+      "1 pound ground sausage",
+      "1 onion, finely chopped",
+      "3/4 cup uncooked white rice",
+      "1 cup water",
+      "salt to taste",
+      "ground black pepper to taste",
+      "1 large head cabbage",
+      "1 (32 ounce) jar sauerkraut"
+    ],
+    "description": [
+      "Bring a large pot of water to a boil. Boil cabbage leaves 2 minutes; drain.",
+      "In large bowl, combine 1 cup cooked rice, egg, milk, onion, ground beef, salt, and pepper. Place about 1/4 cup of meat mixture in center of each cabbage leaf, and roll up, tucking in ends. Place rolls in slow cooker.",
+      "In a small bowl, mix together tomato sauce, brown sugar, lemon juice, and Worcestershire sauce. Pour over cabbage rolls.",
+      "Cover, and cook on Low 8 to 9 hours."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Garlic Dosa",
+    "image": "dosa.jpg",
+    "ingredients": [
+      "1 tablespoon cooking oil",
+      "1/4 cup split Bengal gram (chana dal)",
+      "8 dried red chile peppers",
+      "5 cloves garlic",
+      "1/2 cup fresh curry leaves",
+      "1/4 cup coriander seeds",
+      "2 tablespoons cumin seeds",
+      "salt to taste"
+    ],
+    "description": [
+      "Heat the oil in a shallow skillet over medium heat; fry the chana dal in the hot oil for about 5 minutes. Stir the red chile peppers, garlic, curry leaves, coriander seeds, and cumin seeds into the dal and continue cooking until the spices are roasted and fragrant, about 3 minutes more. Spread the mixture onto some newspaper to cool to room temperature; grind into a find powder. Season with salt. The powder will keep in an airtight container on the shelf for a few months."
+    ]
+  }
+]

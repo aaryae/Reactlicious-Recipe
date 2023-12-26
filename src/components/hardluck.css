@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Quattrocento&display=swap');
+.menu{
+    display:block;
+}
+
+
+.feature-ones {
+    max-width: 1600px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:#e7e7e4;
+ 
+}
+
+.firstbox {
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+    flex-direction: column;
+
+}
+
+
+.image {
+    text-align: center;
+    position: relative;
+    width: 400px;
+}
+
+
+.image img:hover {
+    cursor: pointer;
+
+}
+
+.image button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 8px 16px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image:hover button {
+    opacity: 1;
+    color: red;
+    border: 1px solid black;
+}
+
+
+
+
+
+.midbox {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    padding-top: 40px;
+}
+
+.midbox h1 {
+    font-weight: bold;
+}
+
+.hov:hover {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.tass {
+    text-shadow: 0px 0px 20px #000000,
+
+}
+
+
+
+
+
+.secbox {
+    max-width: 400px;
+    background-color: #f5f6ea;
+    color: rgb(90, 90, 90);
+    float: right;
+    margin: 10px;
+
+
+
+}
+
+.secbox h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boxes {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+.boxes p {
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.boxes P:hover {
+    text-decoration: underline;
+    color: rgb(192, 53, 53);
+
+
+}
+.nono{
+    visibility:hidden;
+}
+
+.menu-visible {
+    display: flex;
+  }
+  
+  .visible {
+    display: block;
+  }
+
+
+
+
+
+
+
+/* Recipelist */
+
+.ramro{
+    font-family: 'Quattrocento', serif;
+}
+.ramro-bold{
+    font-family: 'Cinzel', serif;
+}
+.hello:hover {
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(249,218,167,1) 100%);
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media (max-width: 900px) {
+    /* header */
+    .nono{
+        visibility: visible;
+    }
+    .navbar ul {
+      display: none;
+      flex-direction: column;
+      height: 80vh;
+      justify-content: center;
+    }
+  
+    .navbar.visible ul {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+      font-size: 1.5em;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  
+    .china {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    /* above */
+    .feature-ones {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+/* images */
+
+
+  }
+  
+  @media screen and (max-width:464px){
+    .image{
+        width:fit-content;
+    }
+    .firstbox img{
+    width:100%;
+}
+    
+  }
