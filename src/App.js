@@ -6,6 +6,8 @@ import FeaturedRecipies from "./components/FeaturedRecipies";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import RecipeList from './components/RecipeList';
+import RecipeDetail from './components/RecipeDetail';
+
 
 
 function App() {
@@ -13,11 +15,11 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      {/* <Banner/>
+      <Banner/>
       <FeaturedRecipies/>
-      <Footer/> */}
+      <Footer/>
     <RecipeList/>
-      
+      <RecipeDetail/>
      
     </div>
   );
