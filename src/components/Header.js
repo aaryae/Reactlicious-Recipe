@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <div
-      className={`rt-header flex justify-around p-5 bg-[#0a0a0a] text-white china 
+      className={`rt-header flex justify-around p-5 bg-[#0a0a0a] text-white china mathirakhnalai
       ${
         MenuOn ? "menu-visible" : ""
       }`}

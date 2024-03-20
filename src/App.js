@@ -7,6 +7,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import RecipeList from './components/RecipeList';
 import RecipeDetail from './components/RecipeDetail';
+import RecipeForm from './components/RecipeForm';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Footer/>
     <RecipeList/>
       <RecipeDetail/>
+      <RecipeForm/>
      
     </div>
   );
