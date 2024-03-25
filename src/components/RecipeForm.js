@@ -2,20 +2,20 @@ import React from 'react'
 
 const RecipeForm = () => {
   return (
-    <form>
+    <form className=''>
     <input
                         type="text"
-                        placeholder="Mother's Name"
+                        placeholder="Title"
                       
                     />
                     <input
                         type="text"
-                        placeholder="Grandfather's Name"
+                        placeholder="Description"
                        
                     />
                     <input
                         type="date"
-                        placeholder="Date of Birth"
+                        placeholder="NaN"
                        
                     />
                     

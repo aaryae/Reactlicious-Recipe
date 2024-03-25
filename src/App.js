@@ -6,8 +6,10 @@ import FeaturedRecipies from "./components/FeaturedRecipies";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import RecipeList from './components/RecipeList';
-import RecipeDetail from './components/RecipeDetail';
 import RecipeForm from './components/RecipeForm';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import News from './components/News';
+// import Detailrecipe from './components/Detailrecipe';
 
 
 
@@ -15,14 +17,21 @@ function App() {
  
   return (
     <div className="App">
+      <BrowserRouter>
       <Header/>
       <Banner/>
-      <FeaturedRecipies/>
-      <Footer/>
-    <RecipeList/>
-      <RecipeDetail/>
-      <RecipeForm/>
+      <Routes>
+        <Route path='/' element={<FeaturedRecipies/>} />
+        <Route path='/recipes' element={<RecipeList/>} />
+        <Route path='/addrecipes' element={<RecipeForm/>} />
+        <Route path='/News' element={<News/>} />
+        {/* <Route path='/detailrecipe' element={<Detailrecipe/>} /> */}
+      </Routes>
+      </BrowserRouter>
      
+      <Footer/>
+      
+    
     </div>
   );
 }
