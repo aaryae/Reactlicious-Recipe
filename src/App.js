@@ -10,6 +10,8 @@ import RecipeForm from "./components/RecipeForm";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import News from "./components/News";
 import RecipeDetail from "./components/RecipeDetail";
+import Aboutus from "./components/Aboutus";
+import NewsDetail from "./components/NewsDetail";
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
         <Routes>
           <Route path="/" element={<FeaturedRecipies />} />
           <Route path="/recipes" element={<RecipeList />} />
+          <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/addrecipes" element={<RecipeForm />} />
-          <Route path="/News" element={<News />} />
+          <Route path="/news" element={<News />} />
+          <Route path="news/:newsid" element={<NewsDetail />} />
           <Route path="/recipes/:recipeId" element={<RecipeDetail />} />{" "}
         </Routes>
       </BrowserRouter>

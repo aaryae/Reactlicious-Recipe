@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import "./hardluck.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [MenuOn, setMenuOn] = useState(false);
@@ -17,14 +18,12 @@ const Header = () => {
   return (
     <div
       className={`rt-header flex justify-around p-5 bg-[#0a0a0a] text-white china mathirakhnalai
-      ${
-        MenuOn ? "menu-visible" : ""
-      }`}
+      ${MenuOn ? "menu-visible" : ""}`}
       style={heroStyles}
     >
       <div className="logo font-bold tracking-wider ">
         <h1 className="text-[2em] font-bold border-b-4 border-indigo-500 text-[#FFA500] ">
-          food
+          <Link to="/">Food</Link>
         </h1>
       </div>
       <div className={`navbar res ${MenuOn ? "visible" : ""}`}>
@@ -33,21 +32,21 @@ const Header = () => {
             <a href="/">Home</a>
           </li>
           <li className="p-2 tracking-wide hover:text-[#FFA500]">
+            <a href="/aboutus">About us</a>
+          </li>
+          <li className="p-2 tracking-wide hover:text-[#FFA500]">
             <a href="/recipes">Recipes</a>
           </li>
           <li className="p-2 tracking-wide hover:text-[#FFA500]">
             <a href="/addrecipes">Add-Recipes</a>
           </li>
-          <li className="p-2 tracking-wide hover:text-[#FFA500]">
-            <a href="/detailrecipes">Detail-Recipes</a>
-          </li>
+          {/* <li className="p-2 tracking-wide hover:text-[#FFA500]">
+            <a href="/news">News</a>
+          </li> */}
         </ul>
       </div>
       <div className="hamburger" onClick={handleToggle}>
-        <i
-          className="fa-solid fa-bars nono"
-          style={{ color: "#ff7300" }}
-        ></i>
+        <i className="fa-solid fa-bars nono" style={{ color: "#ff7300" }}></i>
       </div>
     </div>
   );
