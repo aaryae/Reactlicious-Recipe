@@ -10,6 +10,7 @@ const RecipeDetail = () => {
     return <div>Recipe not found</div>;
   }
 
+
   const handleSubmit = (event) => {
     event.preventDefault();
     if (event.target.value !== null && event.target.value !== "") {
@@ -21,7 +22,7 @@ const RecipeDetail = () => {
 
   const imagePath = require(`../Images/${recipe.image}`);
   return (
-    <div className="Recipieshoni max-w-screen-lg mx-auto mt-20 mb-0 bg-[#e8e8e8] p-5 ">
+    <div className="max-w-screen-lg mx-auto mt-20 mb-0 bg-[#e8e8e8] p-5 ">
       <img src={imagePath} alt="NaN" />
       <div className="m-6 px-6 ">
         <h2 className="font-bold p-2 text-4xl text-[#008080] underline">
@@ -44,7 +45,7 @@ const RecipeDetail = () => {
           {recipe.description}
         </p>
       </div>
-      <div className="font-bold  m-6 px-6 mt-11 text-[#008080]">
+      <div className="font-bold m-6 px-6 mt-11 text-[#008080]">
         <input
           className="p-3 px-11 w-9/12"
           type="text"

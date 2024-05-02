@@ -1,21 +1,17 @@
 import React, { useState } from "react";
-// import { useEffect } from "react";
+import { useEffect } from "react";
+import news from "../data/news.json";
+import { Link, useParams } from "react-router-dom";
 
 const NewsDetail = () => {
-  // const [fetchedData, setfetchedData] = useState([]);
-  // useEffect(() =>
-  // {
-  //     fetch(
-  //         "https://newsapi.org/v2/everything?q=tesla&from=2024-03-09&sortBy=publishedAt&apiKey=fb6e45d574924ffca24c02b0d8fd3798"
-  //     )
-  //         .then((res) => res.json())
-  //         .then((data) => setfetchedData(data.articles))
-  //         .catch((error) =>
-  //         {
-  //             console.log(error);
-  //         });
-  // }, []);
-  return <div>.description</div>;
+  const {newsid}=useParams();
+  const readnews=news.find((readnews) => readnews.id.toString() === newsid);
+
+  return (
+    <div className="Recipieshoni max-w-screen-2xl mx-auto mt-20 mb-0 bg-[#ffffff] p-5 ">
+      hello news
+    </div>
+  );
 };
 
 export default NewsDetail;

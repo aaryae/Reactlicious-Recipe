@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Quattrocento&display=swap');
-.menu{
-    display:block;
+
+.menu {
+    display: block;
 }
 
 
@@ -10,8 +11,8 @@
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    background-color:#e7e7e4;
- 
+    background-color: #e7e7e4;
+
 }
 
 .firstbox {
@@ -129,17 +130,18 @@
 
 
 }
-.nono{
-    visibility:hidden;
+
+.nono {
+    visibility: hidden;
 }
 
 .menu-visible {
     display: flex;
-  }
-  
-  .visible {
+}
+
+.visible {
     display: block;
-  }
+}
 
 
 
@@ -149,16 +151,32 @@
 
 /* Recipelist */
 
-.ramro{
+.ramro {
     font-family: 'Quattrocento', serif;
 }
-.ramro-bold{
+
+.ramro-bold {
     font-family: 'Cinzel', serif;
 }
+
 .hello:hover {
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(249,218,167,1) 100%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(249, 218, 167, 1) 100%);
 }
-  
+
+.hello2:hover {
+    background: #fcf3e5;
+    border: 1px solid #ffa500;
+}
+
+.hello2 {
+    border: 1px solid white;
+}
+
+/* 
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+} */
 
 
 
@@ -168,59 +186,59 @@
 
 
 
+@media (max-width: 900px) {
 
-
-
-  
-  @media (max-width: 900px) {
     /* header */
-    .nono{
+    .nono {
         visibility: visible;
     }
+
     .navbar ul {
-      display: none;
-      flex-direction: column;
-      height: 80vh;
-      justify-content: center;
+        display: none;
+        flex-direction: column;
+        height: 80vh;
+        justify-content: center;
     }
-  
+
     .navbar.visible ul {
-      display: flex;
+        display: flex;
     }
-  
+
     .hamburger {
-      display: block;
-      font-size: 1.5em;
-      margin-top: 10px;
-      cursor: pointer;
+        display: block;
+        font-size: 1.5em;
+        margin-top: 10px;
+        cursor: pointer;
     }
-  
+
     .china {
-      display: flex;
-      justify-content: space-between;
-      position:sticky;
-      top:0;
-      z-index: 1;
-     
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+
     }
-    
+
     /* above */
     .feature-ones {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
     }
-/* images */
+
+    /* images */
 
 
-  }
-  
-  @media screen and (max-width:464px){
-    .image{
-        width:fit-content;
-    }
-    .firstbox img{
-    width:100%;
 }
-    
-  }
+
+@media screen and (max-width:464px) {
+    .image {
+        width: fit-content;
+    }
+
+    .firstbox img {
+        width: 100%;
+    }
+
+}
