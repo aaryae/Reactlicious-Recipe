@@ -37,13 +37,7 @@
     "author": "Thomas White",
     "publication_date": "2024-04-26",
     "content": "Leaders from around the world convened for a high-stakes climate summit, vowing to strengthen their commitments to combatting climate change and reducing greenhouse gas emissions. The summit, hosted by the United Nations, saw representatives from over 100 countries pledge to implement ambitious climate policies and accelerate the transition to renewable energy sources. UN Secretary-General, Anna Garcia, urged world leaders to 'act with urgency' to address the climate crisis and protect the planet for future generations. The summit concluded with a renewed sense of determination and a call for global cooperation to tackle one of the greatest challenges of our time.",
-    "tags": [
-      "climate change",
-      "environment",
-      "UN",
-      "renewable energy",
-      "global cooperation"
-    ]
+    "tags": ["climate change", "environment", "UN", "renewable energy", "global cooperation"]
   },
   {
     "id": 6,
@@ -59,13 +53,7 @@
     "author": "Alex Brown",
     "publication_date": "2024-04-24",
     "content": "The stock market surged to new heights today, fueled by optimism about the economic recovery and strong corporate earnings reports. All major indices reached record highs, with investors buoyed by signs of robust consumer spending and business expansion. Analysts attribute the market rally to expectations of continued fiscal stimulus and a favorable interest rate environment. said financial expert Sarah Johnson. The bullish sentiment on Wall Street reflects growing confidence in the post-pandemic recovery.",
-    "tags": [
-      "stock market",
-      "economy",
-      "investing",
-      "financial markets",
-      "economic outlook"
-    ]
+    "tags": ["stock market", "economy", "investing", "financial markets", "economic outlook"]
   },
   {
     "id": 8,
@@ -73,13 +61,7 @@
     "author": "Kevin Wilson",
     "publication_date": "2024-04-23",
     "content": "A groundbreaking study has found a significant correlation between air pollution exposure and the risk of developing dementia later in life. Researchers analyzed data from over 2 million adults and found that those living in areas with higher levels of air pollution were more likely to be diagnosed with dementia. The study, published in the *Journal of Neurology*, highlights the detrimental effects of air pollution on brain health and underscores the urgent need for stricter environmental regulations. Dr. Rachel Adams, lead author of the study, called for greater efforts to reduce air pollution and protect public health.",
-    "tags": [
-      "health",
-      "air pollution",
-      "dementia",
-      "public health",
-      "environment"
-    ]
+    "tags": ["health", "air pollution", "dementia", "public health", "environment"]
   },
   {
     "id": 9,
@@ -87,13 +69,7 @@
     "author": "Jessica Adams",
     "publication_date": "2024-04-21",
     "content": "Renewable energy has surpassed coal to become the largest source of electricity in Europe for the first time, according to a new report by the European Environment Agency. The report reveals that renewables accounted for 40% of Europe's electricity generation in 2023, outpacing coal-fired power plants. The transition to clean energy sources has been driven by government policies, technological advancements, and growing public awareness of the climate crisis. said Maria Lopez, an environmental analyst. Europe's shift towards renewables sets a positive example for other regions seeking to reduce carbon emissions.",
-    "tags": [
-      "renewable energy",
-      "Europe",
-      "electricity",
-      "climate change",
-      "clean energy"
-    ]
+    "tags": ["renewable energy", "Europe", "electricity", "climate change", "clean energy"]
   },
   {
     "id": 10,
@@ -101,13 +77,7 @@
     "author": "Andrew Roberts",
     "publication_date": "2024-04-20",
     "content": "Facebook is under fire once again for its handling of user data privacy, sparking criticism from regulators and advocacy groups worldwide. The social media giant came under scrutiny following reports of a data breach affecting millions of users' personal information. Critics argue that Facebook's lax data protection measures and inadequate oversight have put users' privacy at risk. In response to the backlash, Facebook CEO, Mark Zuckerberg, issued a statement acknowledging the incident and promising to strengthen data security measures. However, many remain skeptical of Facebook's commitment to safeguarding user privacy amidst ongoing controversies.",
-    "tags": [
-      "Facebook",
-      "privacy",
-      "data protection",
-      "social media",
-      "regulation"
-    ]
+    "tags": ["Facebook", "privacy", "data protection", "social media", "regulation"]
   },
   {
     "id": 11,
@@ -115,13 +85,7 @@
     "author": "Rachel Turner",
     "publication_date": "2024-04-19",
     "content": "Archeologists have made a remarkable discovery in Egypt's Western Desert, unearthing the remains of an ancient city buried beneath the sands for millennia. The city, believed to be over 3,000 years old, contains well-preserved artifacts, including pottery, statues, and hieroglyphic inscriptions. Dr. Ahmed Hassan, lead archeologist on the expedition, described the find as 'a treasure trove of ancient history' that sheds light on Egypt's enigmatic past. The discovery offers valuable insights into the civilization that once thrived in the region and the trade networks that connected it to distant lands.",
-    "tags": [
-      "archeology",
-      "Egypt",
-      "ancient civilization",
-      "discovery",
-      "history"
-    ]
+    "tags": ["archeology", "Egypt", "ancient civilization", "discovery", "history"]
   },
   {
     "id": 12,
@@ -129,13 +93,7 @@
     "author": "Laura Garcia",
     "publication_date": "2024-04-18",
     "content": "International organizations and governments are mobilizing to address a surge in the refugee crisis driven by conflicts, persecution, and climate-related disasters. The United Nations Refugee Agency reports a dramatic increase in the number of people forcibly displaced from their homes, with millions seeking refuge in neighboring countries and beyond. The escalating crisis has strained resources and sparked humanitarian concerns, prompting calls for coordinated action to provide assistance and protection to displaced populations. UNHCR spokesperson, David Smith, called on the international community to 'step up efforts to address the root causes of displacement and support those in need.' Global solidarity and cooperation are crucial to resolving the refugee crisis and ensuring the safety and dignity of all affected individuals.",
-    "tags": [
-      "refugee crisis",
-      "humanitarian",
-      "UN",
-      "global cooperation",
-      "displacement"
-    ]
+    "tags": ["refugee crisis", "humanitarian", "UN", "global cooperation", "displacement"]
   },
   {
     "id": 13,
@@ -143,12 +101,6 @@
     "author": "Emma Taylor",
     "publication_date": "2024-04-17",
     "content": "A new study published in the *Journal of Psychology* has identified a correlation between excessive social media use and mental health issues among young adults. Researchers surveyed thousands of participants and found that those who spent more time on social media platforms reported higher levels of anxiety, depression, and loneliness. The study highlights the potential negative effects of prolonged social media exposure on mental well-being and underscores the importance of digital literacy and healthy online habits. Dr. Michael Brown, lead author of the study, urged individuals to be mindful of their social media consumption and prioritize offline interactions for their mental health.",
-    "tags": [
-      "social media",
-      "mental health",
-      "psychology",
-      "well-being",
-      "digital literacy"
-    ]
+    "tags": ["social media", "mental health", "psychology", "well-being", "digital literacy"]
   }
 ]
